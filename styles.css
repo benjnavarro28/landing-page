@@ -97,7 +97,7 @@ body {
     background-color: #3882f6;
     font-size: 18px;
     font-weight: bold;
-    color: #e5e7eb;
+    color: white;
     padding: 8px 32px;
 }
 
@@ -138,12 +138,12 @@ body {
     font-weight: bold;
     color: #1f2937;
     display: flex;
-    align-self: right;
+    justify-content: flex-end;
 }
 
 .body-sec4 {
     display: flex;
-    padding: 48px 300px;
+    padding: 72px 300px;
     align-items: center;
     justify-content: center;
 }
@@ -154,7 +154,7 @@ body {
     border-radius: 8px;
     align-self: flex-start;
     background-color: #3882f6;
-    color: #e5e7eb;
+    color: white;
     padding: 32px 100px;
     gap: 96px;
     align-items: center;
@@ -167,13 +167,13 @@ body {
 
 .signup-button-2 {
     display: flex;
-    border: white;
+    border: 2px solid white;
     border-radius: 8px;
     align-self: flex-start;
     background-color: #3882f6;
     font-size: 18px;
     font-weight: bold;
-    color: #e5e7eb;
+    color: white;
     padding: 8px 32px;
 }
 
