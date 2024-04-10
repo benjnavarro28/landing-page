@@ -71,7 +71,7 @@ body {
 
 .sec1-title {
     font-size: 48px;
-    font-weight: 900;
+    font-weight: bolder;
     color: #f9faf8;
 }
 
@@ -85,6 +85,8 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 48px 300px;
+    gap: 32px;
 }
 
 .signup-button {
@@ -101,21 +103,67 @@ body {
 
 .sec2-title {
     font-size: 36px;
-    font-weight: 900;
+    font-weight: bolder;
     color: #1f2937;
+}
+
+.sec2-pics {
+    text-align: center;
+    display: flex;
+    gap: 16px;
+}
+
+.caption {
+    font-size: 18px;
+    color: rgb(90, 90, 90);
 }
 
 .body-sec3 {
     display: flex;
     background-color: #e5e7eb;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.inspiring-quote {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1f2937;
+}
+
+.attribution {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+    display: flex;
+    align-self: right;
 }
 
 .body-sec4 {
     display: flex;
+    padding: 48px 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-box {
+    display: flex;
+    border: none;
+    border-radius: 8px;
+    align-self: flex-start;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 32px 100px;
+}
+
+.signup-title {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .footer {
-    position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
