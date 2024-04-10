@@ -11,6 +11,8 @@ body {
     display: flex;
     padding: 16px;
     justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .logo {
@@ -52,11 +54,15 @@ body {
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
+    padding: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .sec1-left {
     display: flex;
     flex-direction: column;
+    gap: 8px;
 }
 
 .sec1-right {
@@ -74,6 +80,40 @@ body {
     font-size: 18px;
 }
 
+.body-sec2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.signup-button {
+    display: flex;
+    border: none;
+    border-radius: 8px;
+    align-self: flex-start;
+    background-color: #3882f6;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e5e7eb;
+    padding: 8px 32px;
+}
+
+.sec2-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.body-sec3 {
+    display: flex;
+    background-color: #e5e7eb;
+}
+
+.body-sec4 {
+    display: flex;
+}
+
 .footer {
     position: absolute;
     left: 0;
@@ -86,19 +126,4 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-}
-
-.signup-button {
-    display: flex;
-    align-self: flex-start;
-}
-
-.sec2-title {
-    font-size: 36px;
-    font-weight: 900;
-    color: #1f2937;
-}
-
-.body-sec3 {
-    background-color: #e5e7eb;
 }
