@@ -31,6 +31,15 @@ body {
     justify-content: right;
 }
 
+.links {
+    font-size: 18px;
+}
+
+.header-right a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
 .header-right ul {
     list-style-type: none;
     display: flex;
@@ -41,12 +50,32 @@ body {
 
 .body-sec1 {
     background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec1-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.sec1-right {
+    display: flex;
+}
+
+.sec1-title {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
 }
 
+.sec1-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
 .footer {
+    position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
@@ -54,4 +83,22 @@ body {
     background-color: #1f2937;
     color: #f9faf8;
     height: 72px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.signup-button {
+    display: flex;
+    align-self: flex-start;
+}
+
+.sec2-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.body-sec3 {
+    background-color: #e5e7eb;
 }
